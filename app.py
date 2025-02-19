@@ -37,7 +37,7 @@ def chat_with_gemini(prompt):
     model = genai.GenerativeModel("gemini-pro")
     return model.generate_content(prompt).text
 
-st.markdown("<h1 style='text-align: center; color: #2563EB;'>Bienvenido, ¿en qué puedo ayudarte?</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #2563EB;'>Bienvenido al bot de gemini!</h1>", unsafe_allow_html=True)
 
 # Mostrar historial de conversación
 with st.container():
